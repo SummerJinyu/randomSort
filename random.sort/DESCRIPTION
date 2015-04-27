@@ -1,0 +1,10 @@
+Package: randomSort
+Title: Homework 8 
+Version: 0.0.0.9000
+Authors@R: person("Jinyu", "Xia", , "jxia26@wisc.edu", role = c("aut", "cre"))
+Description: Sort a vector into ascending order.
+Depends: R (>= 3.1.2)
+License: GPL-2
+LazyData: true
+Suggests: knitr, rmarkdown
+VignetteBuilder: knitr
