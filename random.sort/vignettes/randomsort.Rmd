@@ -10,6 +10,6 @@ vignette: >
 ---
 This package is used to sort an unordered vector into an ascending-ordering vector.
 ```{r}
-library(randomSort)
+library(random.sort)
 
 ```
