@@ -1,0 +1,13 @@
+---
+title: "randomSort"
+author: "Jinyu Xia"
+date: "April 26, 2015"
+output: html_document
+---
+
+This package is used to sort an unordered vector into an ascending-ordering vector.
+```{r}
+library(randomSort)
+x = rnorm(100)
+randomSort(x)
+```

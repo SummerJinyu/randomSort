@@ -4,15 +4,15 @@
 #' The algorithm used is the worst one I know.
 #' @param x    a vector ("Arguments" section)
 #' @return     a sorted version of \code{x} ("Value" section)
-#' @details    \code{random.sort} randomly permutes ("Details" section)
+#' @details    \code{randomSort} randomly permutes ("Details" section)
 #'             \code{x} until \code{x} is sorted. It requires
 #'             \deqn{(n-1)n!} swaps on average and \deqn{\infty} swaps
 #'             in the worst case.
 #' @export
 #' @examples
 #' v = c(4, 2, 1, 3) # ("Examples" section)
-#' random.sort(x=v)
-random.sort = function(x) {
+#' randomSort(x=v)
+randomSort = function(x) {
   while (is.unsorted(x)) {
     x = sample(x)
   }
