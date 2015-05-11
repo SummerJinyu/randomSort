@@ -6,5 +6,5 @@ Description: Sort a vector into ascending order.
 Depends: R (>= 3.1.2)
 License: GPL-2
 LazyData: true
-Suggests: knitr, rmarkdown
+Suggests: knitr, rmarkdown, testthat
 VignetteBuilder: knitr
